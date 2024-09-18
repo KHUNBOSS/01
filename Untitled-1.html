@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First GitHub Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Personal Website</title>
   <style>
+    /* Resetting margins and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem;
       text-align: center;
-      margin-top: 50px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #444;
+    }
+
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      display: block;
+    }
+
+    nav a:hover {
+      background: #555;
+    }
+
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .hero {
+      background: #f9f9f9;
+      padding: 2rem 0;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      color: #666;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to My GitHub Page</h1>
-  <p>This is my first website hosted on GitHub Pages!</p>
+
+  <header>
+    <h1>Welcome to My Personal Website</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Hello, I'm Boss!</h2>
+    <p>This is my personal website where I share my projects, ideas, and blog posts.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a web developer who loves creating websites and learning new technologies.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>© 2024 My Personal Website | Designed by Boss</p>
+  </footer>
+
 </body>
 </html>
